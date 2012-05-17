@@ -141,8 +141,8 @@
 
    ;;; font lock
    `(font-lock-builtin-face ((,class (:foreground ,zenburn-blue))))
-   `(font-lock-comment-face ((,class (:foreground ,zenburn-green))))
-   `(font-lock-comment-delimiter-face ((,class (:foreground ,zenburn-green))))
+   `(font-lock-comment-face ((,class (:foreground ,zenburn-red))))
+   `(font-lock-comment-delimiter-face ((,class (:foreground ,zenburn-red))))
    `(font-lock-constant-face ((,class (:foreground ,zenburn-green+4))))
    `(font-lock-doc-face ((,class (:foreground ,zenburn-green+1))))
    `(font-lock-doc-string-face ((,class (:foreground ,zenburn-blue+1))))
@@ -342,7 +342,7 @@
    `(jabber-title-large ((,class (:height 1.3 :weight bold))))
 
    ;; linum-mode
-   `(linum ((,class (:foreground ,zenburn-green+2 :background ,zenburn-bg))))
+   `(linum ((,class (:foreground ,zenburn-bg+2 :background ,zenburn-bg))))
 
    ;; magit
    `(magit-section-title ((,class (:foreground ,zenburn-yellow :weight bold))))
